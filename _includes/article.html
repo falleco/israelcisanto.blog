@@ -1,0 +1,14 @@
+<article>
+	<headline><a href="{{ p.url }}">{{ page.title }}</a></headline>
+	
+	<information>
+		<category><span class="label">Desenvolvimento</span></category>
+		<postmeta>
+			<span class="date">{{ page.date | date: "%d/%m/%Y" }}</span>
+			<author><a href="#">icrisanto</a></author>
+		</postmeta>
+	</information>
+
+	{{ page.content }}
+	<h3><a class="comments-button" href="{{ p.url }}#comments">Ver Comentários</a></h3>
+</article>

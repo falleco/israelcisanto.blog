@@ -1,0 +1,11 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+name: Israel Crisanto
+description: Code is life
+
+url: www.israelcrisanto.com
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
+paginate: 10 # pagination basted on number of posts
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss'] # files to exclude

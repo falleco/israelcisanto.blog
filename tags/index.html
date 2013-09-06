@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h2 class="post_title">{{page.title}}</h2>
+<ul>
+  {% for tag in page.tags %}
+  <li class="archive_list">
+    <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a>
+  </li>
+  {% endfor %}
+</ul>
